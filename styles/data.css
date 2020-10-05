@@ -1,0 +1,46 @@
+.data__capture {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 58px; }
+
+.data__subcapture {
+  display: block;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #c0cdd7;
+  margin-bottom: 8px; }
+
+.data__text {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 48px; }
+
+.data__socials {
+  margin-top: 16px; }
+
+.data__icons {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  .data__icons--facebook:hover {
+    fill: #4267b2; }
+  .data__icons--insta:hover {
+    fill: #b0198f; }
+  .data__icons--tweet:hover {
+    fill: #1da1f2; }
+
+/*# sourceMappingURL=data.css.map */

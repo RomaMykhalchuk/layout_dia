@@ -1,0 +1,83 @@
+.approach__subcapture {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff; }
+
+.approach__capture {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  color: #fff;
+  margin: 16px 0 32px; }
+  @media screen and (max-width: 530px) {
+    .approach__capture {
+      font-size: 25px;
+      line-height: 120%; } }
+
+.approach__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 150%;
+  color: #fff; }
+
+.approach__icon {
+  margin-right: 34px; }
+  @media screen and (max-width: 500px) {
+    .approach__icon {
+      margin-right: 0;
+      margin-bottom: 10px; } }
+
+.approach__points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 32px 0 64px; }
+  @media screen and (max-width: 500px) {
+    .approach__points {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+
+.approach__description {
+  width: 370px; }
+  @media screen and (max-width: 1400px) {
+    .approach__description {
+      width: 100%; } }
+
+.approach__image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url("../images/features/Photo.png");
+  background-size: cover;
+  background-position: center;
+  width: 43vw;
+  height: 680px;
+  border-radius: 30px 0 0; }
+  @media screen and (max-width: 1400px) {
+    .approach__image {
+      width: 50%;
+      height: 250px;
+      left: 0;
+      bottom: 0;
+      border-radius: 0 30px; } }
+  @media screen and (max-width: 700px) {
+    .approach__image {
+      width: 100%; } }
+
+/*# sourceMappingURL=approach.css.map */

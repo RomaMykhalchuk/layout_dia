@@ -1,0 +1,1 @@
+{"version":3,"sources":["reset.scss"],"names":[],"mappings":"AAAA;;;;;;;;;;;EAWE,SAAS;EACT,UAAU,EAAA;;AAGZ;EACE,YAAY;EACZ,SAAS;EACT,UAAU,EAAA","file":"reset.css","sourcesContent":["html,\nbody,\nul,\nli,\np,\nbutton,\ninput,\ntextarea,\nh1,\nh3,\nh2 {\n  margin: 0;\n  padding: 0;\n}\n\nfieldset {\n  border: none;\n  margin: 0;\n  padding: 0;\n}\n"]}

@@ -1,0 +1,43 @@
+.advantages__img {
+  width: 166px;
+  height: 166px;
+  border-radius: 16px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer; }
+  @media screen and (max-width: 980px) {
+    .advantages__img {
+      width: 70%;
+      height: 100%; } }
+  @media screen and (min-width: 980px) {
+    .advantages__img:hover {
+      -webkit-transform: scale(1.3);
+              transform: scale(1.3); } }
+
+.advantages__capture {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  margin: 40px 0 16px; }
+
+.advantages__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6c788b;
+  text-align: center; }
+
+.advantages__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/*# sourceMappingURL=advantages.css.map */

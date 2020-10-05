@@ -1,0 +1,35 @@
+.vision {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .vision__capture {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 150%;
+    color: #253757;
+    text-align: center; }
+    @media screen and (max-width: 600px) {
+      .vision__capture {
+        font-size: 30px;
+        line-height: 110%; } }
+  .vision__text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #6c788b;
+    text-align: center;
+    margin: 24px 0 64px; }
+  @media screen and (max-width: 500px) {
+    .vision__button {
+      width: 100%; } }
+
+/*# sourceMappingURL=vision.css.map */
